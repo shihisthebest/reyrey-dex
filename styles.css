@@ -1,0 +1,228 @@
+body {
+  background-color: #F33F19;
+  font-family: "VT323", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h1 {
+  color: #356cba;
+  font-size: 3rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  color: #fbcb04;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+
+/* @media (max-width: 1161px) {
+  h3 {
+    font-size: 1.25rem;
+  }
+} */
+
+@media (max-width: 991px) {
+  h3 {
+    font-size: 1.75rem;
+  }
+}
+
+h4 {
+  color: #356cba;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0 0;
+}
+
+.body-container {
+  margin: 0;
+  padding: 0 200px;
+}
+
+@media (max-width: 991px) {
+  .body-container {
+    margin: 0;
+    padding: 0 50px;
+  }
+}
+
+.sub-container {
+  background-color: #efefef;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px 10px #888888;
+  line-height: 1rem;
+  margin: 0.5rem auto 3rem;
+}
+
+@media (min-width: 641px) and (max-width: 991px) {
+  .row-margins {
+    margin: auto 5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .row-margins {
+    margin: auto 2rem;
+  }
+}
+
+.divider {
+  max-width: 100px;
+  margin-top: 3rem;
+}
+
+/* Navigation Bar */
+
+#navbar {
+  background-color: #282828;
+  color: white;
+}
+
+.navbar {
+  background-color: #282828;
+  padding: 15px 30px;
+  width: 100%;
+}
+
+.navbar li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 2rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #fbcb04;
+  text-decoration: underline;
+}
+
+/* Logo Header */
+.header-container {
+  padding: 8rem 0 4rem 0;
+}
+
+.logo {
+  max-width: 55%;
+}
+
+/* Pokedex Section */
+
+.pokedex-button {
+  float: left;
+  max-height: 100px;
+  max-width: 100px;
+  padding: 1em;
+}
+
+
+.pokedex-image {
+  border: #fbcb04;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thick;
+  max-width: 300px;
+  margin: auto;
+}
+
+/* @media (max-width: 1168px) {
+  .pokedex-image {
+    max-width: 85%;
+  } */
+
+@media (max-width: 991px) {
+  .pokedex-image {
+    max-width: 75%;
+  }
+}
+
+.pokedex-row {
+  margin: 0 200px;
+}
+
+.narrow-col {
+  max-width: 35%;
+}
+
+.stats {
+  text-align: left;
+}
+
+.stats-heading {
+  font-weight: bold;
+}
+
+
+/* Care Guide */
+
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}
+
+
+/* Trading Cards */
+
+.media-row {
+  display: block;
+}
+
+.media-col {
+  display: inline-block;
+}
+.trading-card {
+  margin-bottom: 1rem;
+  max-width: 100%;
+}
+
+.trading-card:hover {
+  display: inline-block;
+  transform: scale(1.5);
+  z-index: 5;
+}
+
+@media (max-width: 991px) {
+  .trading-card {
+    max-width: 75%;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .trading-card:hover {
+    transform: none;
+  }
+}
+
+
+/* Trainer Library Section */
+
+iframe {
+  height: auto !important;
+  width: 100% !important;
+}
+
+@media (max-width: 991px) {
+  iframe {
+    height: auto !important;
+    width: auto !important;
+  }
+}
+
+.video-title {
+  color: white;
+  font-weight: normal;
+  padding: 0 0 1rem;
+}
